@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - jstrachan/nodey538
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - jstrachan/nodey539
       require_self_approval: true
     cat: {}
@@ -26,6 +30,22 @@ data:
     plugins:
       jstrachan/jx3-openshift-local:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      jstrachan/nodey538:
       - approve
       - assign
       - blunderbuss
@@ -68,6 +88,9 @@ data:
     triggers:
     - repos:
       - jstrachan/jx3-openshift-local
+      trusted_org: todo
+    - repos:
+      - jstrachan/nodey538
       trusted_org: todo
     - repos:
       - jstrachan/nodey539
