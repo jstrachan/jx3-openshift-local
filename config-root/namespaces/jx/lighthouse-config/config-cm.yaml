@@ -9,6 +9,7 @@ data:
       enabled:
         jstrachan/jx3-openshift-local: true
         jstrachan/nodey539: true
+        jstrachan/nodey540: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         jstrachan/jx3-openshift-local: merge
         jstrachan/nodey539: merge
+        jstrachan/nodey540: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - jstrachan/jx3-openshift-local
         - jstrachan/nodey539
+        - jstrachan/nodey540
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - jstrachan/jx3-openshift-local
         - jstrachan/nodey539
+        - jstrachan/nodey540
       target_url: http://dashboard-jx.apps-crc.testing
 kind: ConfigMap
 metadata:
