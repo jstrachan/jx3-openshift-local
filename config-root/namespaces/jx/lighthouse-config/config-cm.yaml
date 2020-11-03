@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - jstrachan/jx3-openshift-local
-      target_url: http://dashboard-jx.
+      target_url: http://dashboard-jx.apps-crc.testing
 kind: ConfigMap
 metadata:
   creationTimestamp: null
