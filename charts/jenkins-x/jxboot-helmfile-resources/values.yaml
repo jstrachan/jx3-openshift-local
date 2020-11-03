@@ -1,0 +1,3 @@
+ingress:
+  customHosts:
+    hook: "0be104908fbf.ngrok.io"
