@@ -18,7 +18,7 @@ clean:
 	rm -rf build $(OUTPUT_DIR)
 
 .PHONY: setup
-setup: dev-ns
+setup:
 	# lets create any missing SourceRepository defined in .jx/gitops/source-config.yaml which are not in: versionStream/src/base/namespaces/jx/source-repositories
 	jx gitops repository create
 
