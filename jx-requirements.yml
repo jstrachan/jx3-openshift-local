@@ -18,7 +18,6 @@ cluster:
   namespace: jx
   provider: openshift
   registry: docker-registry.default.svc.cluster.local:5000
-  #registry: ghcr.io
 environments:
 - ingress:
     domain: ""
