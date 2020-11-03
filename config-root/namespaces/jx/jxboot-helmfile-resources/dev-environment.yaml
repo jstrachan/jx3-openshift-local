@@ -73,7 +73,7 @@ spec:
         key: production
       gitops: true
       ingress:
-        domain: ""
+        domain: apps-crc.testing
         externalDNS: false
         namespaceSubDomain: -jx.
         tls:
