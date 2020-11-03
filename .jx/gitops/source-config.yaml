@@ -8,5 +8,6 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: nodey538
     - name: nodey539
     scheduler: in-repo
