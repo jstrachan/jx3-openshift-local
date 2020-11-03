@@ -30,7 +30,7 @@ spec:
           gitRef: master
           gitURL: https://github.com/jenkins-x/jx3-pipeline-catalog.git
       cluster:
-        chartRepository: http://bucketrepo/bucketrepo/charts
+        chartRepository: http://bucketrepo.jx/bucketrepo/charts
         clusterName: kind
         devEnvApprovers:
         - todo
@@ -40,7 +40,7 @@ spec:
         gitServer: https://github.com
         namespace: jx
         provider: openshift
-        registry: ghcr.io
+        registry: docker-registry.default.svc.cluster.local:5000
       environments:
       - ingress:
           domain: ""
