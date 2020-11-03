@@ -10,4 +10,4 @@ metadata:
     gitops.jenkins-x.io/pipeline: 'namespaces'
 data:
   kaniko.flags: ""
-  docker.registry: docker-registry.default.svc.cluster.local:5000
+  docker.registry: default-route-openshift-image-registry.apps-crc.testing:5000
