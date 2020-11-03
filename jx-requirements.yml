@@ -17,7 +17,8 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: openshift
-  registry: ghcr.io
+  registry: docker-registry.default.svc.cluster.local:5000
+  #registry: ghcr.io
 environments:
 - ingress:
     domain: ""
