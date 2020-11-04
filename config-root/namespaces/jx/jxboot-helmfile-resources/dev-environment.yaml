@@ -34,13 +34,14 @@ spec:
         clusterName: kind
         devEnvApprovers:
         - todo
+        dockerRegistryOrg: jx
         environmentGitOwner: todo
         gitKind: github
         gitName: github
         gitServer: https://github.com
         namespace: jx
         provider: openshift
-        registry: default-route-openshift-image-registry.apps-crc.testing:5000
+        registry: image-registry.openshift-image-registry.svc:5000
       environments:
       - ingress:
           domain: ""
@@ -112,6 +113,7 @@ spec:
       apiVersion: jenkins.io/v1
       kind: Scheduler
       name: jx-meta-pipeline
+    dockerRegistryOrg: jx
     envOrganisation: todo
     gitServer: https://github.com
     helmTemplate: true
